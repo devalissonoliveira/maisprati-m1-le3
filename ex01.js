@@ -18,4 +18,4 @@ for(let props in produto){
 
 produto.desconto = 30000;
 
-console.log(`Preço Final: ${produto.preço - produto.desconto}`);
+console.log(`Preço Final: R$ ${produto.preço - produto.desconto}`);
